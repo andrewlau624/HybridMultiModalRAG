@@ -23,6 +23,7 @@ def generate_tags_from_text(text: str, usage="domain") -> list[str]:
       - **Specific tags**: precise concepts, entities, or techniques (e.g., "Reinforcement Learning", "Neural Decoding")
 
     Tags should be relevant, unique, and suitable as node labels for connecting related documents in a graph database.
+    For content containing key figures, brands, names or more, include them in the tags.
 
     Text:
     {text}

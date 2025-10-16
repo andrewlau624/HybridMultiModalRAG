@@ -17,6 +17,8 @@ if uploaded_file is not None:
             st.write(message or "Processing complete.")
         except Exception as e:
             st.error(f"An error occurred: {e}")
+        finally:
+            uploaded_file = None
 
 query = st.text_input("Enter your query")
 
