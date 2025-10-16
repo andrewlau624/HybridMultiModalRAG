@@ -1,0 +1,16 @@
+streamlit~=1.50.0
+pytesseract~=0.3.13
+pillow~=11.3.0
+openai-whisper~=20250625
+langchain~=0.3.27
+langchain-community~=0.3.31
+pypdf
+qdrant-client~=1.15.1
+langchain-core~=0.3.79
+sentence_transformers
+langchain-huggingface
+neo4j-rust-ext
+openai~=2.3.0
+pydantic~=2.12.2
+neo4j~=6.0.2
+python-dotenv
