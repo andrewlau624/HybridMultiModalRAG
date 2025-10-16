@@ -1,7 +1,7 @@
 # HybridMultiModalRAG
 
-AI-powered **Multimodal Retrieval-Augmented Generation (RAG)** system for enterprise knowledge graphs.  
-Supports ingestion of **text, PDF, images, audio**, builds a **Neo4j knowledge graph**, and enables **hybrid search** using both keyword and vector retrieval.
+AI-powered Multimodal Retrieval-Augmented Generation (RAG) Platform for Enterprise Knowledge Graphs.
+Enables ingestion of text, PDFs, images, and audio, automatically extracting content and metadata to build a Neo4j knowledge graph. Combines vector-based semantic search (via Qdrant) with traditional graph and keyword search, allowing fast, accurate, and context-aware information retrieval. Ideal for enterprise applications requiring hybrid search, multimodal reasoning, and knowledge-driven AI workflows.
 
 ---
 
