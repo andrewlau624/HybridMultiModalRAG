@@ -56,7 +56,7 @@ Tip: Start Qdrant first, then Neo4j.
 
 ### **5. Running the Streamlit App**
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 ### **6. Upload Files and Run Query**
