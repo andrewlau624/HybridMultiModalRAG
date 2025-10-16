@@ -33,10 +33,10 @@ User Query:
 {query}
 
 Vector Search Results (Qdrant):
-{qdrant_texts}
+{qdrant_texts[:2]}
 
 Graph Search Results (Neo4j):
-{neo4j_texts}
+{neo4j_texts[:2]}
 
 Your output should be:
 1. A short paragraph answering the query.
