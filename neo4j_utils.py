@@ -69,7 +69,7 @@ def search_documents_by_tag(session, tag):
            d.processed_at AS processed_at,
            collect(DISTINCT t.name) AS tags
     """
-    result = session.run(query, {"tag": tag, "limit": 5})
+    result = session.run(query, {"tag": tag})
     return [record.data() for record in result]
 
 def semantic_search(query):
